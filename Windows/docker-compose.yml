@@ -4,7 +4,7 @@ services:
         image: belchy06/sequence_profiler:windows
         volumes:
             -   type: bind
-                source: c:/Users/Will/Desktop/sequenceprofiler/output
+                source: $SOURCE
                 target: c:/output
         isolation: process
         devices: 

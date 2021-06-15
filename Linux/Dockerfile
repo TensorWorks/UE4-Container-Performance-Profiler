@@ -22,10 +22,11 @@ COPY --chown=ue4:ue4 ./start.sh .
 
 # Create output folder for SVG images
 USER root
+RUN ["mkdir", "svg"]
 RUN ["mkdir", "output"]
 
-
-# Allow CSVToSVG to write images to output folder
+# Allow CSVToSVG to write images to svg folder
+RUN ["chmod", "ugo+rwx", "/svg"]
 RUN ["chmod", "ugo+rwx", "/output"]
 
 # Switch user as UE4 won't run application as root

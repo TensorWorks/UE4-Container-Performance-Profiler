@@ -1,0 +1,2 @@
+/home/will/Desktop/PackagedMovie/CSVToSVG/bin/Debug/net5.0/linux-x64/publish/CSVToSVG.pdb
+/home/will/Desktop/PackagedMovie/CSVToSVG/bin/Debug/net5.0/linux-x64/publish/CSVToSVG

@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+    profiler:
+        image: belchy06/sequence_profiler:linux
+        volumes:
+            -   type: bind
+                source: $SOURCE
+                target: /output
+        # TODO:
+        # Find equivalent of -gpus all from docker run

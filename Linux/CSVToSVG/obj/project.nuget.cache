@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RchHHhbPDpyhlLMEWsxFjmU56M3J5t2vpEM+O34kS0xRL5KpHb7kGzPeDmJKs6VBizjl+RkBjPPLHe5Hxa+pqw==",
+  "success": true,
+  "projectFilePath": "/home/will/Desktop/PackagedMovie/CSVToSVG/CSVToSVG.csproj",
+  "expectedPackageFiles": [
+    "/home/will/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/5.0.6/microsoft.netcore.app.runtime.linux-x64.5.0.6.nupkg.sha512",
+    "/home/will/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/5.0.6/microsoft.aspnetcore.app.runtime.linux-x64.5.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}

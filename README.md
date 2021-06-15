@@ -10,5 +10,5 @@ You can run the profiler through the windows docker-compose file with the follow
 
 `$env:SOURCE="c:/Directory/For/Output/Files"; docker-compose up --scale profiler=N`
 
-Replace the `SOURCE` value with the directory in which you want the output files to be located.  
+Replace the `SOURCE` value with the directory in which you want the output files to be located  
 Repalce the `N` argument with the number of profilers you want to run simultaneously

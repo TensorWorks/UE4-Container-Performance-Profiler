@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+    profiler:
+        image: belchy06/sequence_profiler:windows
+        volumes:
+            -   type: bind
+                source: c:/Users/Will/Desktop/sequenceprofiler/output
+                target: c:/output
+        isolation: process
+        devices: 
+            - "class/5B45201D-F2F2-4F3B-85BB-30FF1F953599"
+        
